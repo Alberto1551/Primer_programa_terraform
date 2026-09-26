@@ -1,5 +1,5 @@
 
 resource "random_string" "suffix" {
-  length    = var.lenght
+  length    = var.length
   special   = true
 }
