@@ -1,5 +1,14 @@
+variable "application_name" {
+  type    = string
+  default = "lab1"
+}
+
+variable "environment" {
+  type    = string
+  default = "dev"
+}
+
 variable "length" {
-  description = "The length of the string"
-  type        = number
-  default     = 20
+  type    = number
+  default = 30
 }
